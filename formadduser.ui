@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>formAddUser</class>
+ <widget class="QDialog" name="formAddUser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>257</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Aggiugi Utente</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QLineEdit{	
+	background-color:white
+}
+QLabel{
+	color:black;
+}
+QPushButton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+}
+QPushButton:pressed{
+    background-color:#006400;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+}
+
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>ADD BOOK:</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>Nome</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>Cognome</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_9">
+              <property name="text">
+               <string>Nome utente:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_10">
+              <property name="text">
+               <string>Password:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_11">
+              <property name="text">
+               <string>Data di nascita</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QLineEdit" name="lineName"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineSN"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineUN"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="linePass"/>
+            </item>
+            <item>
+             <widget class="QDateEdit" name="dateofB"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboUType">
+          <item>
+           <property name="text">
+            <string>Utente admin</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Utente normale</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="2">
+         <widget class="QPushButton" name="addUserCancel">
+          <property name="text">
+           <string>ANNULLA</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="addUser">
+          <property name="text">
+           <string>AGGIUNGI</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

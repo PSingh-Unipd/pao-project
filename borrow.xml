@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<borrows>
+   <borrow>
+    <user>admin</user>
+	  <isbn>9781461209232</isbn>
+	  <title>Andfsfdfsdf Approach via Module Theory</title>
+      <start_date>
+			<year>2017</year>
+			<month>05</month>
+			<day>21</day>
+	  </start_date>
+	  <end_date>
+			<year>2017</year>
+			<month>06</month>
+			<day>21</day>
+	  </end_date>
+   </borrow>
+   <borrow>
+   <user>admin</user>
+	  <isbn>9781461209232</isbn>
+	  <title>Andfsfdfsdf Approach via Module Theory</title>
+      <start_date>
+			<year>2017</year>
+			<month>05</month>
+			<day>21</day>
+	  </start_date>
+	  <end_date>
+			<year>2017</year>
+			<month>06</month>
+			<day>21</day>
+	  </end_date>
+	 
+   </borrow>
+   <borrow>
+   
+	  <user>user</user>
+	  <isbn>9781461209232</isbn>
+	  <title>Andfsfdfsdf Approach via Module Theory</title>
+      <start_date>
+			<year>2017</year>
+			<month>05</month>
+			<day>21</day>
+	  </start_date>
+	  <end_date>
+			<year>2017</year>
+			<month>06</month>
+			<day>21</day>
+	  </end_date>  
+   </borrow>
+   <borrow>
+   <user>user</user>
+		  <isbn>8887331944</isbn>
+          <title>Aupunti di programmazione ad oggetti</title>
+		<start_date>
+			<year>2017</year>
+			<month>04</month>
+			<day>25</day>
+	  </start_date>
+	  <end_date>
+			<year>2017</year>
+			<month>06</month>
+			<day>25</day>
+	  </end_date>
+	  
+   </borrow>
+   
+
+</borrows>
