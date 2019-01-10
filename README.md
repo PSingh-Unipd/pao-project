@@ -1,7 +1,4 @@
-# Project Title
-Library management system using Qt/++ and MVC pattern
-
-![alt text](https://github.com/SinghParwinder/P2-project-Qt-Cpp/blob/master/img/view.png)
+A library management system
 
 # Built With
 C++ and Qt5 for University course 
