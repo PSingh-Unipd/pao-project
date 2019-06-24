@@ -7,8 +7,8 @@
         <file>img/cover5.jpg</file>
         <file>img/nocopertina.png</file>
         <file>img/nocoverava.jpg</file>
-        <file>books.xml</file>
-        <file>borrow.xml</file>
-        <file>users.xml</file>
+        <file>xml/books.xml</file>
+        <file>xml/borrow.xml</file>
+        <file>xml/users.xml</file>
     </qresource>
 </RCC>

@@ -13,45 +13,45 @@ TEMPLATE = app
 DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
-        login.cpp \
-    book.cpp \
-    mathbook.cpp \
-    programmigbook.cpp \
-    user.cpp \
-    adminuser.cpp \
-    normaluser.cpp \
-    bookscontainer.cpp \
-    adminui.cpp \
-    booksmodelviewtable.cpp \
-    borrow.cpp \
-    borrowmodelview.cpp \
-    formaddbook.cpp \
-    usersmodelview.cpp \
-    formadduser.cpp \
-    formuserinfo.cpp
+    classes/login.cpp \
+    classes/book.cpp \
+    classes/mathbook.cpp \
+    classes/programmigbook.cpp \
+    classes/user.cpp \
+    classes/adminuser.cpp \
+    classes/normaluser.cpp \
+    classes/bookscontainer.cpp \
+    classes/adminui.cpp \
+    classes/booksmodelviewtable.cpp \
+    classes/borrow.cpp \
+    classes/borrowmodelview.cpp \
+    classes/formaddbook.cpp \
+    classes/usersmodelview.cpp \
+    classes/formadduser.cpp \
+    classes/formuserinfo.cpp
 
 HEADERS  += login.h \
-    book.h \
-    mathbook.h \
-    programmigbook.h \
-    user.h \
-    adminuser.h \
-    normaluser.h \
-    bookscontainer.h \
-    adminui.h \
-    booksmodelviewtable.h \
-    borrow.h \
-    borrowmodelview.h \
-    formaddbook.h \
-    usersmodelview.h \
-    formadduser.h \
-    formuserinfo.h
+    headers/book.h \
+    headers/mathbook.h \
+    headers/programmigbook.h \
+    headers/user.h \
+    headers/adminuser.h \
+    headers/normaluser.h \
+    headers/bookscontainer.h \
+    headers/adminui.h \
+    headers/booksmodelviewtable.h \
+    headers/borrow.h \
+    headers/borrowmodelview.h \
+    headers/formaddbook.h \
+    headers/usersmodelview.h \
+    headers/formadduser.h \
+    headers/formuserinfo.h
 
 FORMS    += login.ui \
-    adminui.ui \
-    formaddbook.ui \
-    formadduser.ui \
-    formuserinfo.ui
+    ui/adminui.ui \
+    ui/formaddbook.ui \
+    ui/formadduser.ui \
+    ui/formuserinfo.ui
 
 RESOURCES += \
     xml.qrc
